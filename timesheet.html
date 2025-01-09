@@ -1,0 +1,62 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timesheet.css">
+    <script src="timesheet.js"></script>
+    <script src="updateJSON.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="firstheader">
+            <div id="json" style="display: flex"><a id="json2"></a></div>
+            <H1>Mario Kart Wii Time Trial Timesheet</H1>
+            <div id="player">
+                Robvin
+                <img src="mii.mii" alt="mii" id="mii">
+            </div>
+        </div>
+        <div id="menu">
+            <a href="leaderboard.html">Top 10 times</a>
+            <a href="timesheet.html" style="background-color:#303030;">Personal time sheet</a>
+            <a href="ghosts.html">Ghost overzicht</a>
+        </div>
+        <div id="classes">
+            <div class="class" id="150cc" onclick="loadTimesheet('150cc');updateJsonData('150cc')">
+                150cc
+            </div>
+            <div class="class" id="200cc" onclick="loadTimesheet('200cc');updateJsonData('200cc')">
+                200cc
+            </div>
+            <div class="class" id="150ccflap" onclick="loadTimesheet('150ccflap');updateJsonData('150ccflap')">
+                150cc flap
+            </div>
+            <div class="class" id="200ccflap" onclick="loadTimesheet('200ccflap');updateJsonData('200ccflap')">
+                200cc flap
+            </div>
+        </div>
+    </div>
+
+    <div id="table-container">
+        <table id="sheet">
+            <tr>
+                <th onclick="sortTableNum(0)"></th>
+                <th onclick="sortTable(1)">name</th>
+                <th onclick="sortTable(2)">track</th>
+                <th onclick="sortTable(3)">time</th>
+                <th onclick="sortTable(4)">wr</th>
+                <th onclick="sortTableNum(5)">rank</th>
+                <th onclick="sortTableNum(6)">total</th>
+                <th onclick="sortTableNum(7)">top%</th>
+                <th onclick="sortTableDate(8)">date</th>
+                <th onclick="sortTable(9)">lap 1</th>
+                <th onclick="sortTable(10)">lap 2</th>
+                <th onclick="sortTable(11)">lap 3</th>
+                <th onclick="sortTable(12)">character</th>
+                <th onclick="sortTable(13)">vehicle</th>
+            </tr>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>

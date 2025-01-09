@@ -1,0 +1,138 @@
+body {
+    background-color: #121212;
+}
+
+body,
+a {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.3vw;
+    color: #e0e0e0;
+}
+
+#header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    margin: -8px;
+    padding-top: 0.1px;
+    margin-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 5vmin;
+    margin: 2pt;
+    color: #e0e0e0;
+}
+
+#player {
+    margin: 3pt;
+    height: 10%;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    padding-left: 1%;
+    position: absolute;
+    width: 16%;
+    top: 1%;
+    right: 6%;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+#json {
+    margin: 3pt;
+    height: 10%;
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    position: absolute;
+    width: 16%;
+    top: 1%;
+    left: 6%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+#json a {
+    color: #80d8ff;
+    text-decoration: none;
+}
+
+img#mii {
+    height: 100%;
+    vertical-align: middle;
+    padding-left: 45%;
+}
+
+#menu {
+    height: 10%;
+    padding-top: 1%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1f1f1f;
+}
+
+#menu a {
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    text-align: center;
+    padding-top: 10px;
+    width: 50%;
+    height: 50%;
+    color: #e0e0e0;
+    text-decoration: none;
+    background-color: #1f1f1f;
+}
+
+#menu a:hover,
+#player:hover,
+#json:hover,
+.class:hover {
+    background-color: #303030;
+    cursor: pointer;
+}
+
+#classes {
+    height: 10%;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1f1f1f;
+}
+
+#classes .class {
+    border-radius: 30px;
+    border: 1px solid #3e3e3e;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    width: 40%;
+    height: 35%;
+    color: #e0e0e0;
+    text-decoration: none;
+    background-color: #1f1f1f;
+}
+
+div[id="#150cc"] {
+    left: 28%;
+}
+
+div[id="200cc"] {
+    left: 39%;
+}
+
+div[id="#150ccflap"] {
+    right: 39%;
+}
+
+div[id="#200ccflap"] {
+    right: 28%;
+}

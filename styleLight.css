@@ -1,0 +1,124 @@
+body,
+a {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.3vw;
+}
+
+#header {
+    background-color: #02AEEE;
+    color: white;
+    margin: -8px;
+    padding-top: 0.1px;
+    margin-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 5vmin;
+    margin: 2pt;
+}
+
+#player {
+    margin: 3pt;
+    height: 10%;
+    border-radius: 30px;
+    border: 1px solid #2FC9FF;
+    padding-left: 1%;
+    position: absolute;
+    width: 16%;
+    top: 1%;
+    right: 6%;
+}
+
+#json {
+    margin: 3pt;
+    height: 10%;
+    border-radius: 30px;
+    border: 1px solid #2FC9FF;
+    position: absolute;
+    width: 16%;
+    top: 1%;
+    left: 6%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#json a {
+    color: white;
+    text-decoration: none;
+}
+
+img#mii {
+    height: 100%;
+    vertical-align: middle;
+    padding-left: 45%;
+}
+
+#menu {
+    height: 10%;
+    padding-top: 1%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu a {
+    border-radius: 30px;
+    border: 1px solid #2FC9FF;
+    text-align: center;
+    padding-top: 10px;
+    width: 50%;
+    height: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover,
+#player:hover,
+#json:hover,
+.class:hover {
+    background-color: #2FC9FF;
+    cursor: pointer;
+}
+
+#classes {
+    height: 10%;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#classes .class {
+    border-radius: 30px;
+    border: 1px solid #2FC9FF;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    width: 40%;
+    height: 35%;
+    color: white;
+    text-decoration: none;
+}
+
+div[id="#150cc"] {
+    left: 28%;
+}
+
+div[id="200cc"] {
+    left: 39%;
+}
+
+div[id="#150ccflap"] {
+    right: 39%;
+}
+
+div[id="#200ccflap"] {
+    right: 28%;
+}

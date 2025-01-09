@@ -1,0 +1,458 @@
+{
+    "cups": [
+        {
+            "name": "Mushroom Cup",
+            "tracks": [
+                { 
+                    "name": "Luigi Circuit", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/00.json",
+                            "top10": [
+                                {
+                                    "name": "",
+                                    "time": "01:08.774",
+                                    "mii": "",
+                                    "country": 0
+                                },
+                                {
+                                    "name": "",
+                                    "time": "",
+                                    "mii": "",
+                                    "country": 0
+                                },
+                                {
+                                    "name": "",
+                                    "time": "",
+                                    "mii": "",
+                                    "country": 0
+                                }
+                            ],
+                            "yourRank": 1022,
+                            "totalPlayers": 11977
+                        }
+                    ]
+                },
+                {
+                    "name": "Moo Moo Meadows", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/00.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "Mushroom Gorge", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/01.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/02.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Toad's Factory", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/02.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Flower Cup",
+            "tracks": [
+                { 
+                    "name": "Mario Circuit", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/01.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coconut Mall", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/01.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/02.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "DK Summit", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/00.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wario's Gold Mine", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/01.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Star Cup",
+            "tracks": [
+                { 
+                    "name": "Daisy Circuit", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/00.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Koopa Cape", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/01.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "Maple Treeway", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/01.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Grumble Volcano", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/01.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/02.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Special Cup",
+            "tracks": [
+                { 
+                    "name": "Dry Dry Ruins", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/00.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Moonview Highway", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/00.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "Bowser's Castle", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/02.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rainbow Road", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/01.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shell Cup",
+            "tracks": [
+                { 
+                    "name": "GCN Peach Beach", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/01.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "DS Yoshi Falls", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/00.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "SNES Ghost Valley 2", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/01.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "N64 Mario Raceway", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/00.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Banana Cup",
+            "tracks": [
+                { 
+                    "name": "N64 Sherbert Land", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/01.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "GBA Shy Guy Beach", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/01.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "DS Delfino Square", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/00.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "GCN Waluigi Stadium", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/01.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Leaf Cup",
+            "tracks": [
+                { 
+                    "name": "DS Desert Hills", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/02.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "GBA Bowser Castle 3", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/02.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "N64 DK's Jungle Parkway", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/01.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/02.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "GCN Mario Circuit", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/02.json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lightning Cup",
+            "tracks": [
+                { 
+                    "name": "SNES Mario Circuit 3", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/00.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "DS Peach Gardens", 
+                    "versions": [
+                        {
+                            "category": "Normal",
+                            "link":"/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/00.json"
+                        }
+                    ]
+                },
+                { 
+                    "name": "GCN DK Mountain", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/00.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/02.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "N64 Bowser's Castle", 
+                    "versions": [
+                        {
+                            "category": "Shortcut",
+                            "link":"/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/00.json"
+                        },
+                        {
+                            "category": "Glitch",
+                            "link":"/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/01.json"
+                        },
+                        {
+                            "category": "No-Shortcut",
+                            "link":"/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/02.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
