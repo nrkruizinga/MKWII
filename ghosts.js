@@ -38,7 +38,7 @@ async function loadPlayer() {
     return fetch(playerPage).then(res => res.json());
 }
 async function loadTracks() {
-    return fetch("http://127.0.0.1:5500/tracks.json").then(res => res.json());
+    return fetch("./tracks.json").then(res => res.json());
 }
 async function loadStats(link) {
     return fetch("https://tt.chadsoft.co.uk" + link).then(res => res.json());

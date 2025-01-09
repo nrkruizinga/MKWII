@@ -9,7 +9,7 @@ window.onload = async function loadPage() {
     };
 }
 async function loadTracks() {
-    return fetch("http://127.0.0.1:5500/tracks.json").then(res => res.json());
+    return fetch("./tracks.json").then(res => res.json());
 }
 function getLeaderboard(track) {
     return fetch("https://tt.chadsoft.co.uk" + track).then(res => res.json());

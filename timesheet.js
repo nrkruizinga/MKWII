@@ -1,6 +1,6 @@
 var index = 0;
 window.onload = async function () {
-    loadTimesheet("150ccflap");
+    loadTimesheet("150cc");
 }
 async function loadTimesheet(c) {
     index = 0;
@@ -83,7 +83,7 @@ async function loadPlayer() {
 async function getTrackData() {
     var data = JSON.parse(localStorage.getItem("storeData"));
     if (data == null) {
-        return fetch("http://127.0.0.1:5500/stub.json").then(res => res.json());
+        return fetch("./stub.json").then(res => res.json());
     } else {
         return data;
     }

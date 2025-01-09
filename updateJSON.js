@@ -1,31 +1,8 @@
 var index = 0;
 window.addEventListener("load", async function () {
     showLink();
-    updateJsonData("150ccflap");
+    updateJsonData("150cc");
 }, false);
-// async function updateJSON() {
-//     var json = await getJsonData();
-//     for (var cups of json.cups) {
-//         for (var tracks of cups.tracks) {
-//             for (var track of tracks.versions) {
-//                 track["flaplink"] = track.link.replace(/(\d+)\.json$/, "$1-fast-lap.json");
-//                 track["flap200cclink"] = track["200cclink"].replace(/(\d+)\.json$/, "$1-fast-lap.json");
-//                 localStorage.setItem("storeData", JSON.stringify(json));
-//                 var jsonse = JSON.stringify(json);
-//                 var blob = new Blob([jsonse], { type: "application/json" });
-//                 var url = URL.createObjectURL(blob);
-//                 var a = document.createElement('a');
-//                 a.href = url;
-//                 a.download = "stub.json";
-//                 a.textContent = "Download stub.json " + index.toString() + "x";
-//                 a.id = "json2"
-//                 document.getElementById('json2').parentNode.replaceChild(a, document.getElementById('json2'));
-//                 index += 1;
-//                 console.log(tracks.name + " " + track.category + " has successfully added " + track["flaplink"] + " and " + track["flap200cclink"]);
-//             };
-//         };
-//     };
-// }
 async function updateJsonData(c) {
     console.log(c);
     var json = await getJsonData();
@@ -107,7 +84,7 @@ async function loadPlayer() {
 async function getJsonData() {
     var data = JSON.parse(localStorage.getItem("storeData"));
     if (data == null) {
-        return fetch("http://127.0.0.1:5500/stub.json").then(res => res.json());
+        return fetch("./stub.json").then(res => res.json());
     } else {
         return data;
     }
@@ -139,7 +116,7 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
     }
 }
 async function showLink() {
-    var b = await fetch("http://127.0.0.1:5500/stub.json").then(res => res.json());
+    var b = await fetch("./stub.json").then(res => res.json());
     var json = JSON.parse(localStorage.getItem("storeData"));
     var data = [];
     var data2 = [];
