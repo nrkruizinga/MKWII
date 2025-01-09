@@ -40,10 +40,28 @@ async function loadTimesheet(c) {
                         var ghost = playerDataGhost.filter(ghost => ghost._links.leaderboard.href == track["200cclink"]);
                         break;
                     case "150ccflap":
-                        var ghost = playerDataGhost.filter(ghost => track.flaplink.indexOf(ghost.trackId) > -1  && track.flaplink.indexOf(ghost.categoryId + "-fast-lap") > -1);
+                        var ghost = playerDataGhost.filter(ghost =>
+                            track.flaplink.indexOf(ghost.trackId) > -1 &&
+                            track.flaplink.indexOf((
+                                ghost.categoryId === 20
+                                    ? 4
+                                    : ghost.categoryId === 16
+                                        ? 0
+                                        : ghost.categoryId ?? 0
+                            ) + "-fast-lap") > -1
+                        );
                         break;
                     case "200ccflap":
-                        var ghost = playerDataGhost.filter(ghost => track["flap200cclink"].indexOf(ghost.trackId) > -1  && track["flap200cclink"].indexOf(ghost.categoryId + "-fast-lap") > -1);
+                        var ghost = playerDataGhost.filter(ghost =>
+                            track["flap200cclink"].indexOf(ghost.trackId) > -1 &&
+                            track["flap200cclink"].indexOf((
+                                ghost.categoryId === 20
+                                    ? 4
+                                    : ghost.categoryId === 16
+                                        ? 0
+                                        : ghost.categoryId ?? 4
+                            ) + "-fast-lap") > -1
+                        );
                         break;
                     default:
                         break;

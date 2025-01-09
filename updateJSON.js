@@ -1,4 +1,3 @@
-var index = 0;
 window.addEventListener("load", async function () {
     showLink();
     updateJsonData("150cc");
@@ -10,7 +9,7 @@ async function updateJsonData(c) {
         for (var tracks of cups.tracks) {
             for (var track of tracks.versions) {
                 if (track[c] == undefined || track[c].length != undefined) {
-                    console.log("trying: " + tracks.name + " " + track.category);
+                    console.log("trying: " + c + " " + tracks.name + " " + track.category);
                     switch (c) {
                         case "150cc":
                             var trackDataAll = await loadStats(track.link);
@@ -34,43 +33,34 @@ async function updateJsonData(c) {
                             case "150cc":
                             case "200cc":
                                 track[c] = {
-                                        "wrTime": trackData[0].finishTimeSimple,
-                                        "myRank": (myGhost[0].leaderboardPlayerId + 1),
-                                        "total": trackData.length,
-                                        "top": ((myGhost[0].leaderboardPlayerId + 1) / trackData.length * 100).toFixed(2)
-                                    };
+                                    "wrTime": trackData[0].finishTimeSimple,
+                                    "myRank": (myGhost[0].leaderboardPlayerId + 1),
+                                    "total": trackData.length,
+                                    "top": ((myGhost[0].leaderboardPlayerId + 1) / trackData.length * 100).toFixed(2)
+                                };
                                 break;
                             case "150ccflap":
                             case "200ccflap":
                                 track[c] = {
-                                        "wrTime": trackData[0].bestSplitSimple,
-                                        "myRank": (myGhost[0].leaderboardPlayerId + 1),
-                                        "total": trackData.length,
-                                        "top": ((myGhost[0].leaderboardPlayerId + 1) / trackData.length * 100).toFixed(2)
-                                    };
+                                    "wrTime": trackData[0].bestSplitSimple,
+                                    "myRank": (myGhost[0].leaderboardPlayerId + 1),
+                                    "total": trackData.length,
+                                    "top": ((myGhost[0].leaderboardPlayerId + 1) / trackData.length * 100).toFixed(2)
+                                };
                                 break;
                             default:
                                 break;
                         };
                         localStorage.setItem("storeData", JSON.stringify(json));
-                        var jsonse = JSON.stringify(json);
-                        var blob = new Blob([jsonse], { type: "application/json" });
-                        var url = URL.createObjectURL(blob);
-                        var a = document.createElement('a');
-                        a.href = url;
-                        a.download = "stub.json";
-                        a.textContent = "Download stub.json " + index.toString() + "x";
-                        a.id = "json2"
-                        document.getElementById('json2').parentNode.replaceChild(a, document.getElementById('json2'));
-                        index += 1;
-                        console.log(tracks.name + " " + track.category + " has successfully added itself!");
+                        showLink(json);
+                        console.log(c + " " + tracks.name + " " + track.category + " has successfully added itself!");
                     } else {
                         console.log("no ghosts for this version");
                         track[c] = {};
                         localStorage.setItem("storeData", JSON.stringify(json));
                     };
                 } else {
-                    console.log(tracks.name + " " + track.category + " is skipped");
+                    console.log(c + " " + tracks.name + " " + track.category + " is skipped");
                 };
             }
         }
@@ -115,32 +105,50 @@ async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
         }
     }
 }
-async function showLink() {
-    var b = await fetch("./stub.json").then(res => res.json());
+async function showLink(json = null) {
     var json = JSON.parse(localStorage.getItem("storeData"));
+    var b = await fetch("./stub.json").then(res => res.json());
+    if (json == null) {
+        localStorage.setItem("storeData", JSON.stringify(b));
+        json = b;
+    } else {
+        localStorage.setItem("storeData", JSON.stringify(json));
+    }
     var data = [];
     var data2 = [];
     for (var cups of json.cups) {
         for (var tracks of cups.tracks) {
             for (var track of tracks.versions) {
-                if (track["150cc"] != undefined) {
+                if (track["150cc"] == undefined || track["150cc"].length != undefined) {
                     data.push("a");
-                }
-                if (track["200cc"] != undefined) {
+                };
+                if (track["200cc"] == undefined || track["200cc"].length != undefined) {
                     data.push("b");
-                }
+                };
+                if (track["150ccflap"] == undefined || track["150ccflap"].length != undefined) {
+                    data.push("c");
+                };
+                if (track["200ccflap"] == undefined || track["200ccflap"].length != undefined) {
+                    data.push("d");
+                };
             };
         };
     };
     for (var cups of b.cups) {
         for (var tracks of cups.tracks) {
             for (var track of tracks.versions) {
-                if (track["150cc"] != undefined) {
+                if (track["150cc"] == undefined || track["150cc"].length != undefined) {
                     data2.push("a");
-                }
-                if (track["200cc"] != undefined) {
+                };
+                if (track["200cc"] == undefined || track["200cc"].length != undefined) {
                     data2.push("b");
-                }
+                };
+                if (track["150ccflap"] == undefined || track["150ccflap"].length != undefined) {
+                    data2.push("c");
+                };
+                if (track["200ccflap"] == undefined || track["200ccflap"].length != undefined) {
+                    data2.push("d");
+                };
             };
         };
     };
@@ -150,7 +158,7 @@ async function showLink() {
     var a = document.createElement('a');
     a.href = url;
     a.download = "stub.json";
-    a.textContent = "Download stub.json " + (data.length - data2.length).toString() + "x";
+    a.textContent = "Download stub.json " + (data2.length - data.length).toString() + "x";
     a.id = "json2"
     document.getElementById('json2').parentNode.replaceChild(a, document.getElementById('json2'));
 }

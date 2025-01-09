@@ -10,24 +10,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/00.json",
                             "200cclink": "/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:08.733",
-                                    "myRank": 1200,
-                                    "total": 13517,
-                                    "top": "8.88"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:46.259",
-                                    "myRank": 154,
-                                    "total": 21685,
-                                    "top": "0.71"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:08.733",
+                                "myRank": 1200,
+                                "total": 13528,
+                                "top": "8.87"
+                            },
+                            "200cc": {
+                                "wrTime": "00:46.259",
+                                "myRank": 154,
+                                "total": 21689,
+                                "top": "0.71"
+                            },
                             "flaplink": "/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/08/1AE1A7D894960B38E09E7494373378D87305A163/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:14.211",
+                                "myRank": 70,
+                                "total": 21689,
+                                "top": "0.32"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:21.590",
+                                "myRank": 329,
+                                "total": 13525,
+                                "top": "2.43"
+                            }
                         }
                     ]
                 },
@@ -38,24 +46,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/00.json",
                             "200cclink": "/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:15.273",
-                                    "myRank": 1780,
-                                    "total": 9539,
-                                    "top": "18.66"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:50.980",
-                                    "myRank": 205,
-                                    "total": 7153,
-                                    "top": "2.87"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:15.273",
+                                "myRank": 1781,
+                                "total": 9545,
+                                "top": "18.66"
+                            },
+                            "200cc": {
+                                "wrTime": "00:50.980",
+                                "myRank": 206,
+                                "total": 7161,
+                                "top": "2.88"
+                            },
                             "flaplink": "/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/01/90720A7D57A7C76E2347782F6BDE5D22342FB7DD/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:15.874",
+                                "myRank": 8,
+                                "total": 7161,
+                                "top": "0.11"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:23.784",
+                                "myRank": 289,
+                                "total": 9534,
+                                "top": "3.03"
+                            }
                         }
                     ]
                 },
@@ -66,60 +82,74 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/00.json",
                             "200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/04-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/01.json",
                             "200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/05.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:19.698",
-                                    "myRank": 530,
-                                    "total": 2887,
-                                    "top": "18.36"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:24.262",
-                                    "myRank": 924,
-                                    "total": 935,
-                                    "top": "98.82"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "00:19.698",
+                                "myRank": 530,
+                                "total": 2889,
+                                "top": "18.35"
+                            },
+                            "200cc": {
+                                "wrTime": "00:24.262",
+                                "myRank": 924,
+                                "total": 935,
+                                "top": "98.82"
+                            },
                             "flaplink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/05-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:06.158",
+                                "myRank": 118,
+                                "total": 935,
+                                "top": "12.62"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:03.771",
+                                "myRank": 786,
+                                "total": 2885,
+                                "top": "27.24"
+                            }
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/02.json",
                             "200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:37.467",
-                                    "myRank": 2938,
-                                    "total": 10443,
-                                    "top": "28.13"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:12.848",
-                                    "myRank": 1140,
-                                    "total": 9881,
-                                    "top": "11.54"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:37.467",
+                                "myRank": 2943,
+                                "total": 10455,
+                                "top": "28.15"
+                            },
+                            "200cc": {
+                                "wrTime": "01:12.848",
+                                "myRank": 1140,
+                                "total": 9885,
+                                "top": "11.53"
+                            },
                             "flaplink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/02/0E380357AFFCFD8722329994885699D9927F8276/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:22.495",
+                                "myRank": 761,
+                                "total": 9885,
+                                "top": "7.70"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:30.592",
+                                "myRank": 2790,
+                                "total": 10441,
+                                "top": "26.72"
+                            }
                         }
                     ]
                 },
@@ -130,37 +160,43 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/00.json",
                             "200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/04-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/02.json",
                             "200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:49.039",
-                                    "myRank": 3123,
-                                    "total": 9221,
-                                    "top": "33.87"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:15.871",
-                                    "myRank": 811,
-                                    "total": 8085,
-                                    "top": "10.03"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:49.039",
+                                "myRank": 3127,
+                                "total": 9227,
+                                "top": "33.89"
+                            },
+                            "200cc": {
+                                "wrTime": "01:15.871",
+                                "myRank": 811,
+                                "total": 8085,
+                                "top": "10.03"
+                            },
                             "flaplink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/04/1896AEA49617A571C66FF778D8F2ABBE9E5D7479/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:24.319",
+                                "myRank": 605,
+                                "total": 8085,
+                                "top": "7.48"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:34.803",
+                                "myRank": 3721,
+                                "total": 9219,
+                                "top": "40.36"
+                            }
                         }
                     ]
                 }
@@ -176,37 +212,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/00.json",
                             "200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:20.357",
-                                    "myRank": 1527,
-                                    "total": 7968,
-                                    "top": "19.16"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:53.672",
-                                    "myRank": 92,
-                                    "total": 6534,
-                                    "top": "1.41"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:20.357",
+                                "myRank": 1527,
+                                "total": 7975,
+                                "top": "19.15"
+                            },
+                            "200cc": {
+                                "wrTime": "00:53.672",
+                                "myRank": 92,
+                                "total": 6536,
+                                "top": "1.41"
+                            },
                             "flaplink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:16.310",
+                                "myRank": 28,
+                                "total": 6536,
+                                "top": "0.43"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:24.853",
+                                "myRank": 906,
+                                "total": 7970,
+                                "top": "11.37"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/01.json",
                             "200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/00/7752BB51EDBC4A95377C0A05B0E0DA1503786625/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -217,60 +259,74 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/00.json",
                             "200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:03.849",
-                                    "myRank": 1048,
-                                    "total": 2658,
-                                    "top": "39.43"
-                                }
-                            ],
+                            "150cc": {},
+                            "200cc": {
+                                "wrTime": "01:03.849",
+                                "myRank": 1049,
+                                "total": 2658,
+                                "top": "39.47"
+                            },
                             "flaplink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:19.420",
+                                "myRank": 1361,
+                                "total": 2658,
+                                "top": "51.20"
+                            },
+                            "150ccflap": {}
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/01.json",
                             "200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/05.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:24.122",
-                                    "myRank": 740,
-                                    "total": 1722,
-                                    "top": "42.97"
-                                }
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {
+                                "wrTime": "00:24.122",
+                                "myRank": 740,
+                                "total": 1723,
+                                "top": "42.95"
+                            },
+                            "200cc": {},
                             "flaplink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {
+                                "wrTime": "00:04.097",
+                                "myRank": 1170,
+                                "total": 1717,
+                                "top": "68.14"
+                            }
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/02.json",
                             "200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:55.250",
-                                    "myRank": 2664,
-                                    "total": 7952,
-                                    "top": "33.50"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:14.621",
-                                    "myRank": 85,
-                                    "total": 6516,
-                                    "top": "1.30"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:55.250",
+                                "myRank": 2664,
+                                "total": 7952,
+                                "top": "33.50"
+                            },
+                            "200cc": {
+                                "wrTime": "01:14.621",
+                                "myRank": 85,
+                                "total": 6517,
+                                "top": "1.30"
+                            },
                             "flaplink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/05/E4BF364CB0C5899907585D731621CA930A4EF85C/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:24.000",
+                                "myRank": 97,
+                                "total": 6517,
+                                "top": "1.49"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:37.304",
+                                "myRank": 2719,
+                                "total": 7943,
+                                "top": "34.23"
+                            }
                         }
                     ]
                 },
@@ -281,24 +337,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/00.json",
                             "200cclink": "/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:44.497",
-                                    "myRank": 3270,
-                                    "total": 9468,
-                                    "top": "34.54"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:12.466",
-                                    "myRank": 421,
-                                    "total": 7424,
-                                    "top": "5.67"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:44.497",
+                                "myRank": 3270,
+                                "total": 9468,
+                                "top": "34.54"
+                            },
+                            "200cc": {
+                                "wrTime": "01:12.362",
+                                "myRank": 421,
+                                "total": 7426,
+                                "top": "5.67"
+                            },
                             "flaplink": "/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/06/B02ED72E00B400647BDA6845BE387C47D251F9D1/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:23.267",
+                                "myRank": 629,
+                                "total": 7426,
+                                "top": "8.47"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:33.723",
+                                "myRank": 3939,
+                                "total": 9460,
+                                "top": "41.64"
+                            }
                         }
                     ]
                 },
@@ -309,42 +373,53 @@
                             "category": "Normal",
                             "link": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/00.json",
                             "200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:49.934",
-                                    "myRank": 2646,
-                                    "total": 5491,
-                                    "top": "48.19"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:14.553",
-                                    "myRank": 244,
-                                    "total": 1723,
-                                    "top": "14.16"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:49.934",
+                                "myRank": 2646,
+                                "total": 5491,
+                                "top": "48.19"
+                            },
+                            "200cc": {
+                                "wrTime": "01:14.553",
+                                "myRank": 244,
+                                "total": 1723,
+                                "top": "14.16"
+                            },
                             "flaplink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:24.174",
+                                "myRank": 88,
+                                "total": 1723,
+                                "top": "5.11"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:35.295",
+                                "myRank": 2950,
+                                "total": 5487,
+                                "top": "53.76"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/01.json",
                             "200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/05.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:31.678",
-                                    "myRank": 791,
-                                    "total": 2938,
-                                    "top": "26.92"
-                                }
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {
+                                "wrTime": "00:31.678",
+                                "myRank": 791,
+                                "total": 2938,
+                                "top": "26.92"
+                            },
+                            "200cc": {},
                             "flaplink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/07/D1A453B43D6920A78565E65A4597E353B177ABD0/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {
+                                "wrTime": "00:08.897",
+                                "myRank": 833,
+                                "total": 2936,
+                                "top": "28.37"
+                            }
                         }
                     ]
                 }
@@ -360,24 +435,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/00.json",
                             "200cclink": "/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:28.321",
-                                    "myRank": 2640,
-                                    "total": 6636,
-                                    "top": "39.78"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:02.003",
-                                    "myRank": 263,
-                                    "total": 3841,
-                                    "top": "6.85"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:28.321",
+                                "myRank": 2640,
+                                "total": 6636,
+                                "top": "39.78"
+                            },
+                            "200cc": {
+                                "wrTime": "01:02.003",
+                                "myRank": 263,
+                                "total": 3842,
+                                "top": "6.85"
+                            },
                             "flaplink": "/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/09/72D0241C75BE4A5EBD242B9D8D89B1D6FD56BE8F/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:19.561",
+                                "myRank": 216,
+                                "total": 3842,
+                                "top": "5.62"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:28.110",
+                                "myRank": 2327,
+                                "total": 6633,
+                                "top": "35.08"
+                            }
                         }
                     ]
                 },
@@ -388,37 +471,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/00.json",
                             "200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:17.109",
-                                    "myRank": 2470,
-                                    "total": 6100,
-                                    "top": "40.49"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:37.692",
-                                    "myRank": 298,
-                                    "total": 3011,
-                                    "top": "9.90"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:17.109",
+                                "myRank": 2470,
+                                "total": 6100,
+                                "top": "40.49"
+                            },
+                            "200cc": {
+                                "wrTime": "01:37.396",
+                                "myRank": 298,
+                                "total": 3011,
+                                "top": "9.90"
+                            },
                             "flaplink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:31.375",
+                                "myRank": 329,
+                                "total": 3011,
+                                "top": "10.93"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:43.678",
+                                "myRank": 2284,
+                                "total": 6092,
+                                "top": "37.49"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/01.json",
                             "200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0F/52F01AE3AED1E0FA4C7459A648494863E83A548C/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -429,37 +518,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/00.json",
                             "200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:13.126",
-                                    "myRank": 2661,
-                                    "total": 6114,
-                                    "top": "43.52"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:39.932",
-                                    "myRank": 160,
-                                    "total": 2130,
-                                    "top": "7.51"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:13.126",
+                                "myRank": 2661,
+                                "total": 6114,
+                                "top": "43.52"
+                            },
+                            "200cc": {
+                                "wrTime": "01:39.932",
+                                "myRank": 160,
+                                "total": 2130,
+                                "top": "7.51"
+                            },
                             "flaplink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:32.659",
+                                "myRank": 218,
+                                "total": 2130,
+                                "top": "10.23"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:42.707",
+                                "myRank": 2741,
+                                "total": 6107,
+                                "top": "44.88"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/01.json",
                             "200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0B/48EBD9D64413C2B98D2B92E5EFC9B15ECD76FEE6/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -470,65 +565,84 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/00.json",
                             "200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:32.914",
-                                    "myRank": 1241,
-                                    "total": 4177,
-                                    "top": "29.71"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:10.742",
-                                    "myRank": 180,
-                                    "total": 1347,
-                                    "top": "13.36"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:32.914",
+                                "myRank": 1241,
+                                "total": 4177,
+                                "top": "29.71"
+                            },
+                            "200cc": {
+                                "wrTime": "01:10.742",
+                                "myRank": 180,
+                                "total": 1347,
+                                "top": "13.36"
+                            },
                             "flaplink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:21.732",
+                                "myRank": 167,
+                                "total": 1347,
+                                "top": "12.40"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:29.476",
+                                "myRank": 1633,
+                                "total": 4175,
+                                "top": "39.11"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/01.json",
                             "200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/05.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:15.425",
-                                    "myRank": 1373,
-                                    "total": 4988,
-                                    "top": "27.53"
-                                }
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {
+                                "wrTime": "00:15.425",
+                                "myRank": 1373,
+                                "total": 4988,
+                                "top": "27.53"
+                            },
+                            "200cc": {},
                             "flaplink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {
+                                "wrTime": "00:02.774",
+                                "myRank": 1522,
+                                "total": 4974,
+                                "top": "30.60"
+                            }
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/02.json",
                             "200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:50.877",
-                                    "myRank": 876,
-                                    "total": 3147,
-                                    "top": "27.84"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:16.892",
-                                    "myRank": 11,
-                                    "total": 1439,
-                                    "top": "0.76"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:50.877",
+                                "myRank": 876,
+                                "total": 3147,
+                                "top": "27.84"
+                            },
+                            "200cc": {
+                                "wrTime": "01:16.892",
+                                "myRank": 12,
+                                "total": 1439,
+                                "top": "0.83"
+                            },
                             "flaplink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/03/ACC0883AE0CE7879C6EFBA20CFE5B5909BF7841B/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:24.076",
+                                "myRank": 3,
+                                "total": 1439,
+                                "top": "0.21"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:35.428",
+                                "myRank": 310,
+                                "total": 3138,
+                                "top": "9.88"
+                            }
                         }
                     ]
                 }
@@ -544,24 +658,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/00.json",
                             "200cclink": "/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:46.400",
-                                    "myRank": 3144,
-                                    "total": 6758,
-                                    "top": "46.52"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:15.242",
-                                    "myRank": 208,
-                                    "total": 3123,
-                                    "top": "6.66"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:46.400",
+                                "myRank": 3144,
+                                "total": 6758,
+                                "top": "46.52"
+                            },
+                            "200cc": {
+                                "wrTime": "01:15.242",
+                                "myRank": 208,
+                                "total": 3123,
+                                "top": "6.66"
+                            },
                             "flaplink": "/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0E/38486C4F706395772BD988C1AC5FA30D27CAE098/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:23.533",
+                                "myRank": 39,
+                                "total": 3123,
+                                "top": "1.25"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:32.491",
+                                "myRank": 3363,
+                                "total": 6752,
+                                "top": "49.81"
+                            }
                         }
                     ]
                 },
@@ -572,24 +694,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/00.json",
                             "200cclink": "/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:42.872",
-                                    "myRank": 910,
-                                    "total": 5390,
-                                    "top": "16.88"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:09.117",
-                                    "myRank": 38,
-                                    "total": 1842,
-                                    "top": "2.06"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:42.872",
+                                "myRank": 910,
+                                "total": 5390,
+                                "top": "16.88"
+                            },
+                            "200cc": {
+                                "wrTime": "01:09.117",
+                                "myRank": 38,
+                                "total": 1842,
+                                "top": "2.06"
+                            },
                             "flaplink": "/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0A/B13C515475D7DA207DFD5BADD886986147B906FF/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:22.474",
+                                "myRank": 1,
+                                "total": 1842,
+                                "top": "0.05"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:32.991",
+                                "myRank": 940,
+                                "total": 5378,
+                                "top": "17.48"
+                            }
                         }
                     ]
                 },
@@ -600,37 +730,43 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/00.json",
                             "200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/04-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/02.json",
                             "200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:20.001",
-                                    "myRank": 2702,
-                                    "total": 6564,
-                                    "top": "41.16"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:40.128",
-                                    "myRank": 111,
-                                    "total": 1697,
-                                    "top": "6.54"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:20.001",
+                                "myRank": 2702,
+                                "total": 6564,
+                                "top": "41.16"
+                            },
+                            "200cc": {
+                                "wrTime": "01:40.128",
+                                "myRank": 112,
+                                "total": 1697,
+                                "top": "6.60"
+                            },
                             "flaplink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0C/B9821B14A89381F9C015669353CB24D7DB1BB25D/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:32.814",
+                                "myRank": 122,
+                                "total": 1697,
+                                "top": "7.19"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:45.751",
+                                "myRank": 2816,
+                                "total": 6555,
+                                "top": "42.96"
+                            }
                         }
                     ]
                 },
@@ -641,37 +777,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/00.json",
                             "200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:24.281",
-                                    "myRank": 2727,
-                                    "total": 6041,
-                                    "top": "45.14"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:44.656",
-                                    "myRank": 152,
-                                    "total": 3282,
-                                    "top": "4.63"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:24.281",
+                                "myRank": 2727,
+                                "total": 6041,
+                                "top": "45.14"
+                            },
+                            "200cc": {
+                                "wrTime": "01:44.656",
+                                "myRank": 152,
+                                "total": 3282,
+                                "top": "4.63"
+                            },
                             "flaplink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:33.525",
+                                "myRank": 7,
+                                "total": 3282,
+                                "top": "0.21"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:46.968",
+                                "myRank": 2571,
+                                "total": 6035,
+                                "top": "42.60"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/01.json",
                             "200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/0D/FFE518915E5FAAA889057C8A3D3E439868574508/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 }
@@ -687,37 +829,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/00.json",
                             "200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:12.656",
-                                    "myRank": 1297,
-                                    "total": 5880,
-                                    "top": "22.06"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:48.436",
-                                    "myRank": 343,
-                                    "total": 3922,
-                                    "top": "8.75"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:12.656",
+                                "myRank": 1297,
+                                "total": 5880,
+                                "top": "22.06"
+                            },
+                            "200cc": {
+                                "wrTime": "00:48.436",
+                                "myRank": 344,
+                                "total": 3922,
+                                "top": "8.77"
+                            },
                             "flaplink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:14.966",
+                                "myRank": 140,
+                                "total": 3922,
+                                "top": "3.57"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:22.346",
+                                "myRank": 1288,
+                                "total": 5870,
+                                "top": "21.94"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/01.json",
                             "200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/10/8014488A60F4428EEF52D01F8C5861CA9565E1CA/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -728,24 +876,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/00.json",
                             "200cclink": "/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:58.648",
-                                    "myRank": 710,
-                                    "total": 7169,
-                                    "top": "9.90"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:38.932",
-                                    "myRank": 63,
-                                    "total": 5983,
-                                    "top": "1.05"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "00:58.648",
+                                "myRank": 710,
+                                "total": 7169,
+                                "top": "9.90"
+                            },
+                            "200cc": {
+                                "wrTime": "00:38.932",
+                                "myRank": 63,
+                                "total": 5984,
+                                "top": "1.05"
+                            },
                             "flaplink": "/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/14/8C854B087417A92425110CC71E23C944D6997806/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:11.928",
+                                "myRank": 64,
+                                "total": 5984,
+                                "top": "1.07"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:18.296",
+                                "myRank": 871,
+                                "total": 7166,
+                                "top": "12.15"
+                            }
                         }
                     ]
                 },
@@ -756,37 +912,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/00.json",
                             "200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "00:52.746",
-                                    "myRank": 2736,
-                                    "total": 10079,
-                                    "top": "27.15"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:35.722",
-                                    "myRank": 271,
-                                    "total": 4438,
-                                    "top": "6.11"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "00:52.746",
+                                "myRank": 2736,
+                                "total": 10079,
+                                "top": "27.15"
+                            },
+                            "200cc": {
+                                "wrTime": "00:35.722",
+                                "myRank": 271,
+                                "total": 4439,
+                                "top": "6.10"
+                            },
                             "flaplink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:11.169",
+                                "myRank": 74,
+                                "total": 4439,
+                                "top": "1.67"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:16.398",
+                                "myRank": 2899,
+                                "total": 10071,
+                                "top": "28.79"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/01.json",
                             "200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/19/071D697C4DDB66D3B210F36C7BF878502E79845B/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -797,24 +959,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/00.json",
                             "200cclink": "/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:41.193",
-                                    "myRank": 2182,
-                                    "total": 7360,
-                                    "top": "29.65"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:08.803",
-                                    "myRank": 132,
-                                    "total": 5760,
-                                    "top": "2.29"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:41.193",
+                                "myRank": 2182,
+                                "total": 7360,
+                                "top": "29.65"
+                            },
+                            "200cc": {
+                                "wrTime": "01:08.803",
+                                "myRank": 132,
+                                "total": 5760,
+                                "top": "2.29"
+                            },
                             "flaplink": "/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1A/49514E8F74FEA50E77273C0297086D67E58123E8/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:20.336",
+                                "myRank": 372,
+                                "total": 5762,
+                                "top": "6.46"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:31.330",
+                                "myRank": 2310,
+                                "total": 7352,
+                                "top": "31.42"
+                            }
                         }
                     ]
                 }
@@ -830,37 +1000,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/00.json",
                             "200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:03.576",
-                                    "myRank": 1386,
-                                    "total": 4629,
-                                    "top": "29.94"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:25.165",
-                                    "myRank": 82,
-                                    "total": 1341,
-                                    "top": "6.11"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:03.576",
+                                "myRank": 1386,
+                                "total": 4629,
+                                "top": "29.94"
+                            },
+                            "200cc": {
+                                "wrTime": "01:25.165",
+                                "myRank": 82,
+                                "total": 1341,
+                                "top": "6.11"
+                            },
                             "flaplink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:26.909",
+                                "myRank": 77,
+                                "total": 1341,
+                                "top": "5.74"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:39.646",
+                                "myRank": 1464,
+                                "total": 4622,
+                                "top": "31.67"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/01.json",
                             "200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1B/BA9BCFB3731A6CB17DBA219A8D37EA4D52332256/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -871,37 +1047,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/00.json",
                             "200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:21.363",
-                                    "myRank": 1491,
-                                    "total": 4994,
-                                    "top": "29.86"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:54.068",
-                                    "myRank": 101,
-                                    "total": 2596,
-                                    "top": "3.89"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:21.363",
+                                "myRank": 1491,
+                                "total": 4994,
+                                "top": "29.86"
+                            },
+                            "200cc": {
+                                "wrTime": "00:54.068",
+                                "myRank": 101,
+                                "total": 2596,
+                                "top": "3.89"
+                            },
                             "flaplink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:15.913",
+                                "myRank": 148,
+                                "total": 2597,
+                                "top": "5.70"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:25.153",
+                                "myRank": 1418,
+                                "total": 4987,
+                                "top": "28.43"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/01.json",
                             "200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1F/E8ED31605CC7D6660691998F024EED6BA8B4A33F/05-fast-lap.json",
+                            "200ccflap": {},
+                            "150ccflap": {}
                         }
                     ]
                 },
@@ -912,24 +1094,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/00.json",
                             "200cclink": "/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:03.525",
-                                    "myRank": 2602,
-                                    "total": 8301,
-                                    "top": "31.35"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:22.434",
-                                    "myRank": 107,
-                                    "total": 3413,
-                                    "top": "3.14"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:03.525",
+                                "myRank": 2602,
+                                "total": 8301,
+                                "top": "31.35"
+                            },
+                            "200cc": {
+                                "wrTime": "01:22.434",
+                                "myRank": 107,
+                                "total": 3413,
+                                "top": "3.14"
+                            },
                             "flaplink": "/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/17/BC038E163D21D9A1181B60CF90B4D03EFAD9E0C5/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:25.937",
+                                "myRank": 96,
+                                "total": 3415,
+                                "top": "2.81"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:38.707",
+                                "myRank": 3801,
+                                "total": 8295,
+                                "top": "45.82"
+                            }
                         }
                     ]
                 },
@@ -940,37 +1130,43 @@
                             "category": "Normal",
                             "link": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/00.json",
                             "200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:47.963",
-                                    "myRank": 1900,
-                                    "total": 6872,
-                                    "top": "27.65"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:18.754",
-                                    "myRank": 108,
-                                    "total": 3114,
-                                    "top": "3.47"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:47.963",
+                                "myRank": 1900,
+                                "total": 6872,
+                                "top": "27.65"
+                            },
+                            "200cc": {
+                                "wrTime": "01:18.754",
+                                "myRank": 108,
+                                "total": 3114,
+                                "top": "3.47"
+                            },
                             "flaplink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:25.815",
+                                "myRank": 107,
+                                "total": 3115,
+                                "top": "3.43"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:34.981",
+                                "myRank": 1942,
+                                "total": 6870,
+                                "top": "28.27"
+                            }
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/01.json",
                             "200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/12/418099824AF6BF1CD7F8BB44F61E3A9CC3007DAE/05-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         }
                     ]
                 }
@@ -986,37 +1182,43 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/00.json",
                             "200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/04-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/02.json",
                             "200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:34.237",
-                                    "myRank": 866,
-                                    "total": 4414,
-                                    "top": "19.62"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:03.861",
-                                    "myRank": 14,
-                                    "total": 2423,
-                                    "top": "0.58"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:34.237",
+                                "myRank": 866,
+                                "total": 4414,
+                                "top": "19.62"
+                            },
+                            "200cc": {
+                                "wrTime": "01:03.861",
+                                "myRank": 14,
+                                "total": 2423,
+                                "top": "0.58"
+                            },
                             "flaplink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/15/4EC538065FDC8ACF49674300CBDEC5B80CC05A0D/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:18.398",
+                                "myRank": 5,
+                                "total": 2423,
+                                "top": "0.21"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:29.233",
+                                "myRank": 945,
+                                "total": 4409,
+                                "top": "21.43"
+                            }
                         }
                     ]
                 },
@@ -1027,47 +1229,63 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/00.json",
                             "200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:55.715",
-                                    "myRank": 2552,
-                                    "total": 5867,
-                                    "top": "43.50"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:23.759",
-                                    "myRank": 114,
-                                    "total": 1161,
-                                    "top": "9.82"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:55.715",
+                                "myRank": 2552,
+                                "total": 5867,
+                                "top": "43.50"
+                            },
+                            "200cc": {
+                                "wrTime": "01:23.759",
+                                "myRank": 114,
+                                "total": 1161,
+                                "top": "9.82"
+                            },
                             "flaplink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:26.747",
+                                "myRank": 156,
+                                "total": 1161,
+                                "top": "13.44"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:37.369",
+                                "myRank": 2659,
+                                "total": 5866,
+                                "top": "45.33"
+                            }
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/02.json",
                             "200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:16.124",
-                                    "myRank": 1756,
-                                    "total": 4274,
-                                    "top": "41.09"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:32.250",
-                                    "myRank": 315,
-                                    "total": 1939,
-                                    "top": "16.25"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:16.124",
+                                "myRank": 1756,
+                                "total": 4274,
+                                "top": "41.09"
+                            },
+                            "200cc": {
+                                "wrTime": "01:32.250",
+                                "myRank": 315,
+                                "total": 1939,
+                                "top": "16.25"
+                            },
                             "flaplink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1E/A4BEA41BE83D816F793F3FAD97D268F71AD99BF9/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:30.614",
+                                "myRank": 289,
+                                "total": 1939,
+                                "top": "14.90"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:44.207",
+                                "myRank": 1553,
+                                "total": 4273,
+                                "top": "36.34"
+                            }
                         }
                     ]
                 },
@@ -1078,50 +1296,54 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/00.json",
                             "200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/04-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/01.json",
                             "200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/05-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/02.json",
                             "200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:10.546",
-                                    "myRank": 1052,
-                                    "total": 4620,
-                                    "top": "22.77"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:38.799",
-                                    "myRank": 53,
-                                    "total": 1210,
-                                    "top": "4.38"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:10.546",
+                                "myRank": 1052,
+                                "total": 4620,
+                                "top": "22.77"
+                            },
+                            "200cc": {
+                                "wrTime": "01:38.799",
+                                "myRank": 53,
+                                "total": 1210,
+                                "top": "4.38"
+                            },
                             "flaplink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1D/692D566B05434D8C66A55BDFF486698E0FC96095/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:31.244",
+                                "myRank": 45,
+                                "total": 1210,
+                                "top": "3.72"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:41.481",
+                                "myRank": 1285,
+                                "total": 4612,
+                                "top": "27.86"
+                            }
                         }
                     ]
                 },
@@ -1132,37 +1354,43 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/00.json",
                             "200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/04-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/02.json",
                             "200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:30.272",
-                                    "myRank": 1715,
-                                    "total": 5778,
-                                    "top": "29.68"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:04.460",
-                                    "myRank": 138,
-                                    "total": 1743,
-                                    "top": "7.92"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:30.272",
+                                "myRank": 1715,
+                                "total": 5778,
+                                "top": "29.68"
+                            },
+                            "200cc": {
+                                "wrTime": "01:04.460",
+                                "myRank": 138,
+                                "total": 1743,
+                                "top": "7.92"
+                            },
                             "flaplink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/11/1941A29AD2E7B7BBA8A29E6440C95EF5CF76B01D/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:20.669",
+                                "myRank": 210,
+                                "total": 1744,
+                                "top": "12.04"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:28.327",
+                                "myRank": 1747,
+                                "total": 5770,
+                                "top": "30.28"
+                            }
                         }
                     ]
                 }
@@ -1178,24 +1406,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/00.json",
                             "200cclink": "/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:17.821",
-                                    "myRank": 2926,
-                                    "total": 7899,
-                                    "top": "37.04"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "00:54.327",
-                                    "myRank": 273,
-                                    "total": 3324,
-                                    "top": "8.21"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:17.821",
+                                "myRank": 2926,
+                                "total": 7899,
+                                "top": "37.04"
+                            },
+                            "200cc": {
+                                "wrTime": "00:54.327",
+                                "myRank": 273,
+                                "total": 3324,
+                                "top": "8.21"
+                            },
                             "flaplink": "/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/18/077111B996E5C4F47D20EC29C2938504B53A8E76/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:16.678",
+                                "myRank": 14,
+                                "total": 3325,
+                                "top": "0.42"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:23.784",
+                                "myRank": 2428,
+                                "total": 7894,
+                                "top": "30.76"
+                            }
                         }
                     ]
                 },
@@ -1206,24 +1442,32 @@
                             "category": "Normal",
                             "link": "/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/00.json",
                             "200cclink": "/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/04.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "01:58.890",
-                                    "myRank": 2610,
-                                    "total": 4997,
-                                    "top": "52.23"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:21.627",
-                                    "myRank": 120,
-                                    "total": 1431,
-                                    "top": "8.39"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "01:58.890",
+                                "myRank": 2610,
+                                "total": 4997,
+                                "top": "52.23"
+                            },
+                            "200cc": {
+                                "wrTime": "01:21.627",
+                                "myRank": 120,
+                                "total": 1431,
+                                "top": "8.39"
+                            },
                             "flaplink": "/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/16/F9A62BEF04CC8F499633E4023ACC7675A92771F0/04-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:25.917",
+                                "myRank": 133,
+                                "total": 1431,
+                                "top": "9.29"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:38.095",
+                                "myRank": 2251,
+                                "total": 4989,
+                                "top": "45.12"
+                            }
                         }
                     ]
                 },
@@ -1234,37 +1478,43 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/00.json",
                             "200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/04-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/02.json",
                             "200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:04.775",
-                                    "myRank": 2135,
-                                    "total": 6160,
-                                    "top": "34.66"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:38.096",
-                                    "myRank": 270,
-                                    "total": 2154,
-                                    "top": "12.53"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:04.775",
+                                "myRank": 2135,
+                                "total": 6160,
+                                "top": "34.66"
+                            },
+                            "200cc": {
+                                "wrTime": "01:38.096",
+                                "myRank": 270,
+                                "total": 2154,
+                                "top": "12.53"
+                            },
                             "flaplink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/13/B036864CF0016BE0581449EF29FB52B2E58D78A4/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:31.813",
+                                "myRank": 96,
+                                "total": 2154,
+                                "top": "4.46"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:40.511",
+                                "myRank": 2192,
+                                "total": 6150,
+                                "top": "35.64"
+                            }
                         }
                     ]
                 },
@@ -1275,50 +1525,54 @@
                             "category": "Shortcut",
                             "link": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/00.json",
                             "200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/04.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/00-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/04-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/04-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "Glitch",
                             "link": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/01.json",
                             "200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/05.json",
-                            "150cc": [
-                                {}
-                            ],
-                            "200cc": [
-                                {}
-                            ],
+                            "150cc": {},
+                            "200cc": {},
                             "flaplink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/01-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/05-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/05-fast-lap.json",
+                            "150ccflap": {},
+                            "200ccflap": {}
                         },
                         {
                             "category": "No-Shortcut",
                             "link": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/02.json",
                             "200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/06.json",
-                            "150cc": [
-                                {
-                                    "wrTime": "02:30.459",
-                                    "myRank": 2987,
-                                    "total": 6100,
-                                    "top": "48.97"
-                                }
-                            ],
-                            "200cc": [
-                                {
-                                    "wrTime": "01:44.959",
-                                    "myRank": 251,
-                                    "total": 3023,
-                                    "top": "8.30"
-                                }
-                            ],
+                            "150cc": {
+                                "wrTime": "02:30.459",
+                                "myRank": 2987,
+                                "total": 6100,
+                                "top": "48.97"
+                            },
+                            "200cc": {
+                                "wrTime": "01:44.959",
+                                "myRank": 251,
+                                "total": 3023,
+                                "top": "8.30"
+                            },
                             "flaplink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/02-fast-lap.json",
-                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/06-fast-lap.json"
+                            "flap200cclink": "/leaderboard/1C/15B303B288F4707E5D0AF28367C8CE51CDEAB490/06-fast-lap.json",
+                            "200ccflap": {
+                                "wrTime": "00:34.401",
+                                "myRank": 162,
+                                "total": 3023,
+                                "top": "5.36"
+                            },
+                            "150ccflap": {
+                                "wrTime": "00:48.489",
+                                "myRank": 3318,
+                                "total": 6095,
+                                "top": "54.44"
+                            }
                         }
                     ]
                 }
