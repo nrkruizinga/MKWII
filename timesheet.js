@@ -1,6 +1,10 @@
 var index = 0;
+var playerData;
+var trackData;
 window.onload = async function () {
-    loadTimesheet("150cc");
+    playerData = await loadPlayer();
+    trackData = await getTrackData();
+    await loadTimesheet("150cc");
 }
 async function loadTimesheet(c) {
     index = 0;
@@ -26,9 +30,7 @@ async function loadTimesheet(c) {
         document.getElementById("200cc").style.backgroundColor = "#1f1f1f";
         document.getElementById("150ccflap").style.backgroundColor = "#1f1f1f";
     };
-    var playerData = await loadPlayer();
     var playerDataGhost = playerData.ghosts.filter(playerDataGhost => playerDataGhost.playersFastest == true);
-    var trackData = await getTrackData();
     for (var cups of trackData.cups) {
         for (var tracks of cups.tracks) {
             for (var track of tracks.versions) {
@@ -199,33 +201,6 @@ async function addTR(ghost, track, c) {
             '<td>' + result.driver + '</td>' +
             '<td>' + result.vehicle + '</td>';
     };
-    var table = document.getElementById("tbody");
-    table.appendChild(tr);
-}
-async function addFlapTR(ghost, track, c) {
-    var stats = await loadStats(ghost[0]._links.item.href);
-    var result = await getDriverAndVehicle(stats);
-    const date = new Date(stats.dateSet);
-    const formattedDate = date.toLocaleDateString("nl-NL", {
-        day: "2-digit",
-        month: "2-digit",
-        year: "numeric"
-    });
-    var tr = document.createElement('tr');
-    tr.innerHTML = '<td>' + (index += 1) + '</td>' +
-        '<td>' + stats.player + '</td>' +
-        '<td>' + stats.trackName + " - " + track.category + '</td>' +
-        '<td>' + stats.bestSplitSimple + '</td>' +
-        '<td>' + track[c][0].wrSplit + '</td>' +
-        '<td>' + track[c][0].myRank + '</td>' +
-        '<td>' + track[c][0].total + '</td>' +
-        '<td>' + track[c][0].top + '</td>' +
-        '<td>' + formattedDate + '</td>' +
-        '<td>' + stats.splitsSimple[0] + '</td>' +
-        '<td>' + stats.splitsSimple[1] + '</td>' +
-        '<td>' + stats.splitsSimple[2] + '</td>' +
-        '<td>' + result.driver + '</td>' +
-        '<td>' + result.vehicle + '</td>';
     var table = document.getElementById("tbody");
     table.appendChild(tr);
 }
