@@ -43,7 +43,7 @@ async function loadTimesheet(c) {
                         var ghosts = playerData.ghosts.filter(ghost =>
                             track.flaplink.indexOf(ghost.trackId) > -1 &&
                             track.flaplink.indexOf((
-                                ghost.categoryId === 20
+                                ghost.categoryId === 20 || ghost["200cc"] === true
                                     ? 4
                                     : ghost.categoryId === 16
                                         ? 0
@@ -58,7 +58,7 @@ async function loadTimesheet(c) {
                             track["flap200cclink"].indexOf((
                                 ghost.categoryId === 20
                                     ? 4
-                                    : ghost.categoryId === 16
+                                    : ghost.categoryId === 16 || ghost["200cc"] === false
                                         ? 0
                                         : ghost.categoryId ?? 4
                             ) + "-fast-lap") > -1
