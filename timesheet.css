@@ -43,3 +43,26 @@ table th {
     z-index: 1;
     background-color: #303030;
 }
+
+@media screen and (max-width: 900px) {
+    #table-container {
+        max-height: 63%;
+        overflow-y: scroll;
+    }
+
+    table {
+        font-size: 1.1vw;
+    }
+
+    table th,
+    table td {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    table td {
+        min-width: 15px;
+        max-width: 135px;
+    }
+}

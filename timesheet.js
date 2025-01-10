@@ -40,7 +40,7 @@ async function loadTimesheet(c) {
                         var ghost = playerDataGhost.filter(ghost => ghost._links.leaderboard.href == track["200cclink"]);
                         break;
                     case "150ccflap":
-                        var ghost = playerDataGhost.filter(ghost =>
+                        var ghosts = playerData.ghosts.filter(ghost =>
                             track.flaplink.indexOf(ghost.trackId) > -1 &&
                             track.flaplink.indexOf((
                                 ghost.categoryId === 20
@@ -50,9 +50,10 @@ async function loadTimesheet(c) {
                                         : ghost.categoryId ?? 0
                             ) + "-fast-lap") > -1
                         );
+                        var ghost = await findFlap(ghosts);
                         break;
                     case "200ccflap":
-                        var ghost = playerDataGhost.filter(ghost =>
+                        var ghosts = playerData.ghosts.filter(ghost =>
                             track["flap200cclink"].indexOf(ghost.trackId) > -1 &&
                             track["flap200cclink"].indexOf((
                                 ghost.categoryId === 20
@@ -62,6 +63,7 @@ async function loadTimesheet(c) {
                                         : ghost.categoryId ?? 4
                             ) + "-fast-lap") > -1
                         );
+                        var ghost = await findFlap(ghosts);
                         break;
                     default:
                         break;
@@ -73,15 +75,12 @@ async function loadTimesheet(c) {
         };
     };
 }
-async function findFlap(playerData, track, cc) {
-    var ghosts = cc
-        ? playerData.ghosts.filter(ghost => ghost._links.leaderboard.href == track["200cclink"])
-        : playerData.ghosts.filter(ghost => ghost._links.leaderboard.href == track.link);
+async function findFlap(ghosts) {
     var flapTimes = [];
     for (let index = 0; index < ghosts.length; index++) {
         var flapTime = ghosts[index].bestSplitSimple.split(":");
         flapTimes.push(parseFloat(flapTime[0]) * 60 + parseFloat(flapTime[1]));
-    }
+    };
     if (flapTimes.length > 0) {
         var flapGhost = Math.min(...flapTimes);
         var ghost = ghosts.filter(ghost => {
@@ -90,7 +89,7 @@ async function findFlap(playerData, track, cc) {
             return ghostTime === flapGhost;
         });
         return ghost;
-    }
+    };
     return [];
 }
 async function loadPlayer() {
