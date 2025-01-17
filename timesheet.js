@@ -174,7 +174,7 @@ async function addTR(ghost, track, c) {
         tr.innerHTML = '<td>' + (index += 1) + '</td>' +
             '<td>' + stats.player + '</td>' +
             '<td>' + stats.trackName + " - " + track.category + '</td>' +
-            '<td>' + stats.finishTimeSimple + '</td>' +
+            '<td>' + track[c].time + '</td>' +
             '<td>' + track[c].wrTime + '</td>' +
             '<td>' + track[c].myRank + '</td>' +
             '<td>' + track[c].total + '</td>' +
@@ -189,7 +189,7 @@ async function addTR(ghost, track, c) {
         tr.innerHTML = '<td>' + (index += 1) + '</td>' +
             '<td>' + stats.player + '</td>' +
             '<td>' + stats.trackName + " - " + track.category + '</td>' +
-            '<td>' + stats.bestSplitSimple + '</td>' +
+            '<td>' + track[c].time + '</td>' +
             '<td>' + track[c].wrTime + '</td>' +
             '<td>' + track[c].myRank + '</td>' +
             '<td>' + track[c].total + '</td>' +
